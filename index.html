@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Ticket Reservation</title>
+</head>
+<body>
+
+
+
+    <div class="header">
+        <h1>Movie Ticket Reservation</h1>
+    </div>
+
+    <div class="container">
+        
+
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat  "></div>
+            <div class="seat "></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div> <!-- ROW-1 -->
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div> <!-- ROW-2 -->
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div> <!-- ROW-3 -->
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div> <!-- ROW-4 -->
+
+        <div class="row ">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div> <!-- ROW-5 -->
+    </div> <!-- CONTAINER -->
+
+    <div class="movie-list">
+        <select  id="movie">
+            <option disabled>Film Seçiniz</option>
+            <option value="20">Movie1</option>
+            <option value="22">Movie2</option>
+            <option value="25">Movie3</option>
+        </select>
+    </div> <!-- MOVİE-LİST -->
+
+
+        <ul class="info">
+            <li>
+                <div class="seat selected"></div>
+                <small>Seçili</small>
+            </li>
+            <li>
+                <div class="seat "></div>
+                <small>Boş</small>
+            </li>
+            <li>
+                <div class="seat reserved"></div>
+                <small>Dolu</small>
+            </li>
+        </ul>
+
+        <p class="text">
+            <span id="count"></span> Adet Koltuk İçin Hesaplanan Ücret <span id="amount"></span> TL.
+        </p>
+
+
+
+        <script src="script.js"></script>
+</body>
+</html>
